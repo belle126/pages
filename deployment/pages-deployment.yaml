@@ -4,7 +4,7 @@ metadata:
   labels:
     app: pages
   name: pages
-  namespace: [student-name]
+  namespace: camden
 spec:
   replicas: 1
   selector:
