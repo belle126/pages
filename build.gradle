@@ -18,6 +18,14 @@ dependencies {
 	}
 }
 
+bootRun.environment([
+		"PAGE_CONTENT": "YellowPages",
+])
+
+test.environment([
+		"PAGE_CONTENT": "YellowPages",
+])
+
 test {
 	useJUnitPlatform()
 }
