@@ -17,7 +17,7 @@ spec:
         app: pages
     spec:
       containers:
-        - image: [docker-username]/pages:[tag]
+        - image: gguevarra/pages:db
           name: pages
           ports:
             - containerPort: 8080
