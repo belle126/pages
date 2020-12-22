@@ -50,7 +50,7 @@ spec:
             - name: DEBUG
               value: "true"
             - name: LOGGING_FILE_NAME
-              value: "[student-name]/logs/app.log"
+              value: "camden/logs/app.log"
             - name: LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_WEB
               value: debug
             - name: LOGGING_LEVEL_ROOT
